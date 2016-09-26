@@ -1,0 +1,18 @@
+127.0.0.1	localhost
+127.0.1.1	fenlon-PC
+127.0.0.1       fenlon.com
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+50.116.33.29 sublime.wbond.net
+#10.249.7.25  service.dev.anjuke.com
+
+10.249.8.2 dev-001
+10.249.8.3 dev-002
+10.249.8.4 dev-003
+10.249.8.5 dev-004
+10.249.8.6 dev-005
