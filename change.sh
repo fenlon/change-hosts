@@ -33,8 +33,10 @@ function refreshFromGithub()
     echo "start github hosts"
     project=$home/hosts
 
-    if [ ! -d $project ]; then
-        git clone $projectGitUrl
+    if [ ! -d $project ] || [ `ls hosts|wc -l` -eq 0 ]; then
+        #git clone $projectGitUrl
+        git submodule init
+        git submodule update        
     else
         cd $project
         git pull origin master
