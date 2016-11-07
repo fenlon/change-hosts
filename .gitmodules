@@ -1,3 +1,0 @@
-[submodule "hosts"]
-	path = hosts
-	url = git@git.coding.net:scaffrey/hosts.git
