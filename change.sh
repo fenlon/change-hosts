@@ -37,6 +37,7 @@ function refreshFromGithub()
         #git clone $projectGitUrl
         git submodule init
         git submodule update        
+        git pull origin master
     else
         cd $project
         git pull origin master
@@ -70,6 +71,3 @@ function main()
 }
 
 main
-
-
-
