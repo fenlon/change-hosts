@@ -3,7 +3,8 @@
 
 cd $(dirname $0)
 home=`pwd`
-projectGitUrl='git@github.com:racaljk/hosts.git'
+#projectGitUrl='git@github.com:racaljk/hosts.git'
+projectGitUrl='git@git.coding.net:scaffrey/hosts.git'
 hosts_tmp=$home/hosts_tmp
 
 function checkTmp(){
